@@ -1,7 +1,7 @@
 # CakePHP 3
 
 /vendor/*
-/config/app.php
+/config/index.html
 
 /tmp/cache/models/*
 !/tmp/cache/models/empty
@@ -20,6 +20,6 @@
 # CakePHP 2
 
 /app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
+/app/Config/script.js
+/app/Config/style.css
 /vendors/*
