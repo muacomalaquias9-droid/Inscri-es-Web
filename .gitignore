@@ -20,6 +20,6 @@
 # CakePHP 2
 
 /app/tmp/*
-/app/Config/script.js
+/app/Config/scripts.js
 /app/Config/style.css
 /vendors/*
