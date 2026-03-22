@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Isaac Muaco- Iscrições de Programação Web do Zeri</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/style.css">
+  
+</head>
+<body>
+<nav>
+  <div class="logo">Isaac<em> Muaco </em> Programador</div>
+  
+  <a href="#inscricao" class="nav-cta">Inscrever agora</a>
+</nav>
+
+<section class="hero">
+  <div class="hero-left">
+    <div class="hero-eyebro">Matrículas Abertas — 2026/2027</div>
+<div class="logo"><p>Aulas Práticas: No-code e do Zero sem Inteligência Artificial com Isaac Muaco.</p></div>
+    
+    <h1>Aprende <span>Programação Web</span> do zero ao avançado</h1>
+    <p>HTML, CSS, JavaScript, hospedagem, DNS, cloud e muito mais. Aulas online em português, ministradas por Isaac Muaco Programador.</p>
+    <div class="hero-btns">
+      <a href="#inscricao" class="btn-blue">Fazer inscrição</a>
+      <a href="https://wa.me/244947541761" target="_blank" class="btn-outline">Falar no WhatsApp</a>
+    </div>
+  </div>
+
+  <div class="hero-card",class="footer">
+    <div class="price">10.000 Kz</div>
+    <div class="price-label">Pagamento único — acesso completo</div>
+    <hr>
+    <ul>
+      <li>HTML, CSS e JavaScript</li>
+      <li>Hospedagem de sites</li>
+      <li>Configuracao de DNS</li>
+      <li>Cloud Computing</li>
+      <li>Front-end básico ao avançado</li>
+      <li>Suporte pelo WhatsApp</li>
+    </ul>
+  </div>
+</section>
+
+<section class="modules">
+  <div class="section-label">Contéudo do curso</div>
+  <h2 class="section-title">O que vais aprender</h2>
+
+  <div class="modules-grid">
+    <div class="module-item">
+      <div class="module-num">Estruturas de textos de documentação</div>
+      <h3>HTML5</h3>
+      <p>Estrutura de páginas web, tags, formulários e semântica moderna.</p>
+    </div>
+    <div class="module-item">
+      <div class="module-num">Design</div>
+      <h3>CSS3</h3>
+      <p>Estilização, layouts flexíveis, responsividade e animações.</p>
+    </div>
+    <div class="module-item">
+      <div class="module-num">Robustividade</div>
+      <h3>JavaScript</h3>
+      <p>Lógica de programação, DOM, eventos e interactividade.</p>
+    </div>
+    <div class="module-item">
+      <div class="module-num">Site no Ar</div>
+      <h3>Hospedagem</h3>
+      <p>Como colocar o teu site no ar usando plataformas gratuitas e pagas.</p>
+    </div>
+    <div class="module-item">
+      <div class="module-num">Configurações</div>
+      <h3>DNS e Domínios</h3>
+      <p>Configuração de registos DNS, apontamento de domínios e gestão.</p>
+    </div>
+    <div class="module-item">
+      <div class="module-num">Como colocar seu site na nuvem</div>
+      <h3>Cloud Computing</h3>
+      <p>Introdução aos serviços de nuvem e como usar nos teus projectos.</p>
+    </div>
+  </div>
+</section>
+
+<section class="form-section" id="inscricao">
+  <div class="form-inner">
+    <div class="form-left">
+      <div class="section-label">Inscrição</div>
+      <h2 class="section-title">Garante a tua vaga</h2>
+      <p>Preenche o formulário ao lado e entraremos em contacto pelo WhatsApp ou e-mail para confirmar a inscrição e enviar os detalhes de pagamento.</p>
+
+      <ul class="contact-list">
+        <li>
+          <strong>E-mail</strong>
+          <a href="mailto:isaacmuaco528@gmail.com">isaacmuaco528@gmail.com</a>
+        </li>
+        <li>
+          <strong class="footer">WhatsApp</strong>
+          <a href="https://wa.me/244947541761" target="_blank">+244 947 541 761</a>
+        </li>
+        <li>
+          <strong>Valor</strong>
+          <span>10.000 Kz — Pagamento único programação do zero</span>
+           <span>5.000 Kz — Pagamento único programação do <p> No-code(sem usar códigos)</p></span>
+          </li>
+         </ul>
+         </div>
+        <div class="form-box">
+      <h3>Formulário de inscrição</h3>
+      <p class="form-sub">Preenche os campos abaixo para garantir a tua vaga.</p>
+
+      <form id="regForm" onsubmit="handleSubmit(event)">
+        <div class="field">
+          <label>Nome completo *</label>
+          <input type="text" id="nome" placeholder="O teu nome completo" required>
+        </div>
+        <div class="field">
+          <label>Número do WhatsApp *</label>
+          <input type="tel" id="whatsapp" placeholder="+244 920080000" required>
+        </div>
+        <div class="field">
+          <label>E-mail</label>
+          <input type="email" id="email" placeholder="seuemail@google.com">
+        </div>
+        <div class="field">
+          <label>Mensagem</label>
+          <textarea id="mensagem" placeholder="Conta-nos o que pretendes aprender..."></textarea>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn-submit">Enviar inscrição</button>
+          <a id="waBtn" href="#" target="_blank" class="btn-wa">Enviar pelo WhatsApp</a>
+        </div>
+      </form>
+
+      <div id="success-msg">Inscrição recebida com sucesso. O Isaac vai contactar-te em breve.</div>
+    </div>
+  </div>
+</section>
+
+<section class="instructor">
+  <div class="section-label">Instrutor</div>
+  <div class="instructor-inner">
+    <div class="instructor-avatar"
+     style="
+     width:120px;
+     height:120px;
+     border-radius:50%;
+     background-image:url('imagem/isaacmuacoprogramador.png');
+     background-size:cover;
+     background-position:center;
+     background-repeat:no-repeat;
+     border:3px solid #000000;
+     box-shadow:0 4px 10px rgba(0,0,0,0.3);
+     transition:transform 0.3s ease;
+     ">
+</div>
+    <div class="instructor-info">
+      <div class="role">Programador e Instrutor</div>
+      <h2>Isaac Muaco</h2>
+      <p>Desenvolvedor web com experiência prática em projectos reais. Ensina de forma clara e directa, do básico ao avançado, com foco total nos resultados dos alunos.</p>
+        
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Isaac Muaco Programador. Todos os direitos reservados.</p>
+
+</footer>
+  
+<script src="scripts/scripts.js"></script>
+</body>
+</html>
